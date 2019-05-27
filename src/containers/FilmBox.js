@@ -38,8 +38,9 @@ class FilmBox extends Component {
   render(){
     return (
       <div className = "film-box">
-      <h1> Upcoming Film Releases For the UK </h1>
+      <h2> Upcoming Film Releases For the UK </h2>
       <FilmList data = {this.state.data}/>
+      <a href = "https://www.imdb.com/calendar/?region=gb">View More Upcoming Releases >></a>
       </div>
     )
   }
